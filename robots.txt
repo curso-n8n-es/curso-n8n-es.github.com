@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://curso-n8n-es.github.io/sitemap.xml
+
+# Crawl delay for better server performance
+Crawl-delay: 1
+
+# Block common bot traps (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /.git/
+
+# Allow important resources
+Allow: /curso_n8n.jpeg
+Allow: /favicon.ico
+Allow: /favicon.png
